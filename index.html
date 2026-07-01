@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Bird poster portfolio with an about me section, table of contents, and poster detail pages.">
+	<title>Kbird Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="bird-doodle bird-doodle--one" aria-hidden="true"></div>
+	<div class="bird-doodle bird-doodle--two" aria-hidden="true"></div>
+	<div class="bird-doodle bird-doodle--three" aria-hidden="true"></div>
+
+	<main class="home-page">
+		<section class="top-intro section-card" aria-label="Greeting and rolling picture stack">
+			<div class="greeting-panel">
+				<p class="section-kicker">Greeting</p>
+				<h1>Welcome to my bird world</h1>
+				<p>
+					Hi, I am a 13-year-old boy who loves birds and design. This space is where I collect my posters,
+					share short stories, and keep adding new pages as my portfolio grows.
+				</p>
+			</div>
+			<section class="hero-strip" aria-label="Rolling picture stack">
+				<div class="hero-strip__track" id="hero-strip-track">
+					<div class="hero-strip__card hero-strip__card--one"></div>
+					<div class="hero-strip__card hero-strip__card--two"></div>
+					<div class="hero-strip__card hero-strip__card--three"></div>
+				</div>
+			</section>
+		</section>
+
+		<section class="about-me section-card" id="about-me">
+			<div class="about-me__photo" aria-hidden="true"></div>
+			<div class="about-me__content">
+				<p class="section-kicker">About me</p>
+				<h1>Kbird Portfolio</h1>
+				<p class="about-me__paragraph">
+					I create bird poster artwork and present it in a clean, calm portfolio. My focus is on wildlife, composition, and making each poster feel like a collected print rather than a random image.
+				</p>
+				<div class="about-me__grid">
+					<div>
+						<h2>Name</h2>
+						<p>Kevin Liang</p>
+					</div>
+					<div>
+						<h2>Hobbies</h2>
+						<p>Bird watching, nature walks, photography, playing piano, playing badminton etc.</p>
+					</div>
+					<div>
+						<h2>Skills</h2>
+						<p>Photography, layout design, visual storytelling, content organization, and basic web publishing.</p>
+					</div>
+					<div>
+						<h2>Contacts</h2>
+						<p>Email, phone, and social links can be placed here.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="toc section-card" id="toc">
+			<div class="section-header">
+				<p class="section-kicker">Table of content</p>
+				<h2>Poster collection</h2>
+			</div>
+			<div id="toc-list" class="toc-list" aria-label="Poster table of contents"></div>
+		</section>
+	</main>
+
+	<script src="data/posters.js" defer></script>
+	<script src="script.js" defer></script>
+</body>
+</html>

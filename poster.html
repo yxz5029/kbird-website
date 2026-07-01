@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Unified bird poster detail page with embedded preview, scientific information, and camera specifications.">
+  <title>Kbird Poster Detail</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="poster-page">
+    <div class="poster-topbar">
+      <a class="back-link" href="index.html">Back to Home</a>
+    </div>
+
+    <div class="poster-layout">
+      <main class="poster-main" aria-live="polite">
+        <section class="poster-cover">
+          <div class="poster-preview" id="poster-preview" aria-label="Poster preview"></div>
+        </section>
+      </main>
+
+      <aside class="detail-aside">
+        <p class="eyebrow poster-breadcrumb">Bird poster detail</p>
+        <h1 class="poster-title" id="poster-title">Loading title</h1>
+        <p class="poster-lead" id="poster-lead">Loading the poster metadata and preview.</p>
+
+        <div class="detail-block">
+          <span class="poster-status" id="poster-status">Loading record</span>
+          <p class="detail-credits" id="poster-credits"></p>
+        </div>
+
+        <div class="detail-block">
+          <h2>Scientific record</h2>
+          <div class="spec-grid" id="scientific-info"></div>
+        </div>
+
+        <div class="detail-block">
+          <h2>Story</h2>
+          <div class="poster-story" id="poster-story"></div>
+        </div>
+
+        <div class="detail-block">
+          <h2>Camera specs</h2>
+          <div class="spec-grid" id="camera-specs"></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <script src="data/posters.js" defer></script>
+  <script src="poster.js" defer></script>
+</body>
+</html>
