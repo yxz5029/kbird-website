@@ -5,11 +5,19 @@
   const preview = document.getElementById('poster-preview');
   const title = document.getElementById('poster-title');
   const lead = document.getElementById('poster-lead');
-  const status = document.getElementById('poster-status');
   const credits = document.getElementById('poster-credits');
   const scientificInfo = document.getElementById('scientific-info');
   const story = document.getElementById('poster-story');
-  const cameraSpecs = document.getElementById('camera-specs');
+
+  const formatPosterName = (value) => {
+    return String(value || '')
+      .replace(/[-_]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .split(' ')
+      .map((word) => word ? word.charAt(0).toUpperCase() + word.slice(1) : '')
+      .join(' ');
+  };
 
   const renderSpec = (container, label, value) => {
     const item = document.createElement('div');
@@ -63,18 +71,16 @@
   };
 
   const renderRecord = (record) => {
-    document.title = `${record.commonName} | Kbird Portfolio`;
-    title.textContent = record.commonName || 'Untitled poster';
-    lead.textContent = record.summary || record.description || 'No summary provided.';
-    status.textContent = record.status || 'Curated poster';
+    const displayName = record.commonName || formatPosterName(record.id) || 'Untitled poster';
+    document.title = `${displayName} | Kbird Portfolio`;
+    title.textContent = displayName;
+    lead.textContent = record.description || 'No description provided.';
     credits.textContent = [record.photographer, record.location, record.year].filter(Boolean).join(' • ');
 
     scientificInfo.innerHTML = '';
     renderSpec(scientificInfo, 'Scientific name', record.scientificName);
-    renderSpec(scientificInfo, 'Common order', record.order);
     renderSpec(scientificInfo, 'Family', record.family);
     renderSpec(scientificInfo, 'Habitat', record.habitat);
-    renderSpec(scientificInfo, 'Range', record.range);
     renderSpec(scientificInfo, 'Conservation', record.conservationStatus || record.conservation);
 
     story.innerHTML = '';
@@ -90,25 +96,14 @@
       story.append(p);
     });
 
-    cameraSpecs.innerHTML = '';
-    const camera = record.camera || {};
-    renderSpec(cameraSpecs, 'Body', camera.body);
-    renderSpec(cameraSpecs, 'Lens', camera.lens);
-    renderSpec(cameraSpecs, 'Aperture', camera.aperture);
-    renderSpec(cameraSpecs, 'Shutter', camera.shutter);
-    renderSpec(cameraSpecs, 'ISO', camera.iso);
-    renderSpec(cameraSpecs, 'Location', camera.location || record.location);
-
     renderPreview(record);
   };
 
   const showMissing = (message) => {
     title.textContent = 'Poster not found';
     lead.textContent = message;
-    status.textContent = 'Missing record';
     credits.textContent = '';
     scientificInfo.innerHTML = '';
-    cameraSpecs.innerHTML = '';
     story.innerHTML = '';
     if (preview) {
       preview.innerHTML = `<div class="empty-state">${message}</div>`;
@@ -142,17 +137,10 @@
       });
     } catch (error) {
       renderRecord(poster);
-      if (lead) {
-        lead.textContent = poster.summary || poster.description || 'Poster metadata loaded from the registry because the detailed JSON file was unavailable.';
-      }
       if (story && story.childElementCount === 0) {
         const p = document.createElement('p');
-        p.textContent = poster.story || poster.summary || 'Detailed story content is not available yet.';
+        p.textContent = poster.story || 'Detailed story content is not available yet.';
         story.append(p);
-      }
-      if (cameraSpecs && cameraSpecs.childElementCount === 0) {
-        renderSpec(cameraSpecs, 'Body', poster.camera?.body);
-        renderSpec(cameraSpecs, 'Lens', poster.camera?.lens);
       }
       console.warn(error);
     }

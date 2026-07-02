@@ -229,11 +229,14 @@ h2 {
   align-items: start;
 }
 
-.about-me__photo {
-  min-height: 420px;
-  border-radius: var(--radius-lg);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background:url(posters/about_me.jpg) center/cover;
+
+.about-me__photo{
+    width:100%;
+    aspect-ratio:3/4;
+    border-radius:var(--radius-lg);
+    background:url(posters/about_me.jpg) center center;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
 .about-me__content p {
@@ -499,14 +502,33 @@ h2 {
     height: 228px;
   }
 
-  .bird-doodle {
-    width: 50px;
-    height: 44px;
-  }
+  .bird-doodle--one{
+    top: 60px;
+    left: 1%;
+    transform: rotate(-7deg) scale(0.65);
+}
+
+.bird-doodle--two{
+    top: 250px;
+    right: 1%;
+    transform: rotate(7deg) scale(0.65);
+}
+
+.bird-doodle--three{
+    bottom: 35px;
+    right: 6%;
+    transform: rotate(-4deg) scale(0.65);
+}
 
   .section-card {
     padding: 18px;
   }
+  .about-me__photo{
+    width:100%;
+    aspect-ratio:3/4;
+    background-size:cover;
+  }
+  
 
   .top-intro,
   .about-me,

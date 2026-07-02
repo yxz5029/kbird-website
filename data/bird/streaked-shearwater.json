@@ -1,0 +1,19 @@
+{
+  "commonName": "Streaked Shearwater",
+  "scientificName": "Add scientific name here",
+  "family": "Add family here",
+  "habitat": "Add habitat here",
+  "conservationStatus": "Add conservation status here",
+  "story": [
+    "Add the main explanation for this poster here.",
+    "Add the extra explanation that appears beside the poster here."
+  ],
+  "camera": {
+    "body": "Add camera body here",
+    "lens": "Add lens here",
+    "aperture": "Add aperture here",
+    "shutter": "Add shutter here",
+    "iso": "Add ISO here",
+    "location": "Add location here"
+  }
+}

@@ -3,6 +3,16 @@
   const tocList = document.getElementById('toc-list');
   const heroTrack = document.getElementById('hero-strip-track');
 
+  const formatPosterName = (value) => {
+    return String(value || '')
+      .replace(/[-_]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .split(' ')
+      .map((word) => word ? word.charAt(0).toUpperCase() + word.slice(1) : '')
+      .join(' ');
+  };
+
   if (!tocList && !heroTrack) {
     return;
   }
@@ -11,7 +21,7 @@
     const card = document.createElement('a');
     card.className = 'hero-strip__slide';
     card.href = `poster.html?id=${encodeURIComponent(poster.id)}`;
-    card.setAttribute('aria-label', `Open ${poster.commonName}`);
+    card.setAttribute('aria-label', `Open ${formatPosterName(poster.commonName || poster.id)}`);
 
     const image = document.createElement('img');
     image.alt = `${poster.commonName} preview`;
@@ -29,7 +39,7 @@
 
     const label = document.createElement('span');
     label.className = 'toc-chip__label';
-    label.textContent = `${String(index + 1).padStart(2, '0')}. ${poster.commonName}`;
+    label.textContent = `${String(index + 1).padStart(2, '0')}. ${formatPosterName(poster.commonName || poster.id)}`;
 
     link.append(label);
     return link;

@@ -1,26 +1,14 @@
 {
   "commonName": "My First Bird Poster",
   "scientificName": "Personal Artwork",
-  "order": "Portfolio Series",
   "family": "Kbird Collection",
   "habitat": "Creative Studio",
-  "range": "My personal project",
   "conservationStatus": "N/A",
-  "summary": "This poster is my first page in the Kbird portfolio. It shows my style and how I present bird art.",
-  "status": "Published",
   "photographer": "Kbird",
   "location": "School project",
   "year": "2026",
   "story": [
     "I made this poster to start my full collection website. I want every new poster to have its own page with image and explanation.",
     "My goal is to keep adding more posters in the same format so the site can grow to 110+ pages while staying organized and easy to view."
-  ],
-  "camera": {
-    "body": "N/A",
-    "lens": "N/A",
-    "aperture": "N/A",
-    "shutter": "N/A",
-    "iso": "N/A",
-    "location": "N/A"
-  }
+  ]
 }
