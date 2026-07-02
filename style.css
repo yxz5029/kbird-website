@@ -31,9 +31,9 @@ body {
   font-family: 'Manrope', system-ui, sans-serif;
   line-height: 1.65;
   background:
-    radial-gradient(circle at top, rgba(236, 245, 239, 0.44), transparent 30%),
-    radial-gradient(circle at 18% 8%, rgba(226, 239, 231, 0.28), transparent 24%),
-    radial-gradient(circle at 80% 12%, rgba(211, 230, 217, 0.2), transparent 21%),
+    radial-gradient(circle at top, rgba(198, 255, 216, 0.488), transparent 30%),
+    radial-gradient(circle at 18% 8%, rgba(147, 219, 176, 0.28), transparent 24%),
+    radial-gradient(circle at 80% 12%, rgba(116, 208, 147, 0.2), transparent 21%),
     linear-gradient(180deg, var(--bg-0), var(--bg-1) 40%, var(--bg-2) 100%);
   overflow-x: hidden;
 }
@@ -119,11 +119,11 @@ h2 {
   margin: 0;
   font-family: 'Cormorant Garamond', ui-serif, serif;
   line-height: 0.92;
-  font-weight: 700;
+  font-weight: 680;
 }
 
 h1 {
-  font-size: clamp(2.8rem, 5vw, 4.8rem);
+  font-size: clamp(2.6rem, 5vw, 4.6rem);
 }
 
 h2 {
@@ -225,7 +225,7 @@ h2 {
 .about-me {
   display: grid;
   grid-template-columns: minmax(240px, 290px) minmax(0, 1fr);
-  gap: 20px;
+  gap: 14px;
   align-items: start;
 }
 
@@ -244,18 +244,23 @@ h2 {
 }
 
 .about-me__content h1 {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  font-size: clamp(2.2rem, 4vw, 3.8rem);
+  line-height: 0.95;
+}
+.about-me__paragraph {
+    margin: 8px 0 14px;
 }
 
 .about-me__grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
-  margin-top: 18px;
+  margin-top: 14px;
 }
 
 .about-me__grid > div {
-  padding: 16px;
+  padding: 12px 14px;
   border-radius: var(--radius-md);
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -266,9 +271,12 @@ h2 {
   font-size: 0.95rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
 }
-
+.about-me__grid p {
+    margin: 0;
+    line-height: 1.45;
+}
 .toc-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
