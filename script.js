@@ -38,8 +38,9 @@
     link.href = `poster.html?id=${encodeURIComponent(poster.id)}`;
 
     const label = document.createElement('span');
+    const year = poster.year ? ` (${poster.year})` : '';
     label.className = 'toc-chip__label';
-    label.textContent = `${String(index + 1).padStart(2, '0')}. ${formatPosterName(poster.commonName || poster.id)}`;
+    label.textContent = `${String(index + 1).padStart(2, '0')}. ${formatPosterName(poster.commonName || poster.id)}${year}`;
 
     link.append(label);
     return link;

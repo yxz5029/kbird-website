@@ -134,6 +134,7 @@
       renderRecord({
         ...poster,
         ...birdData,
+        year:poster.year || birdData.year || 'Not provided',
       });
     } catch (error) {
       renderRecord(poster);
