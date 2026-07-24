@@ -1,9 +1,9 @@
 {
   "commonName": "Snowy Owl",
-  "scientificName": "Snowy Owl",
-  "family": "xxx",
-  "habitat": "xxx",
-  "conservationStatus": "N/A",
+  "scientificName": "Bubo scandiacus",
+  "family": "Strigidae",
+  "habitat": "Arctic tundra; meadows; marshes; open grasslands; coastal areas; and agricultural fields",
+  "conservationStatus": "Vulnerable (VU)",
   "photographer": "Kevin",
   "location": "xxx",
   "year": "2026",

@@ -197,7 +197,6 @@ window.KBIRD_POSTERS = [
         posterFile: 'posters/white_browed_laughingthrush.jpg',
         year:2026
     },
-
     {
         id: 'whooper_swan',
         coverImage: 'posters/whooper_swan.jpg',
@@ -239,12 +238,6 @@ window.KBIRD_POSTERS = [
         coverImage: 'posters/jungle_owlet.jpg',
         posterFile: 'posters/jungle_owlet.jpg',
         year:2026
-    },
-    {
-        id: 'sri_lanka_blue_magpie',
-        coverImage: 'posters/sri_lanka_blue_magpie.jpg',
-        posterFile: 'posters/sri_lanka_blue_magpie.jpg',
-        year: 2026
     },
     {
         id: 'sri_lanka_shama',
@@ -491,7 +484,6 @@ window.KBIRD_POSTERS = [
         coverImage: 'posters/abyssinian_ground_hornbill.jpg',
         posterFile: 'posters/abyssinian_ground_hornbill.jpg',
         year:2025
-        
     },
     {
         id: 'tawny_eagle',
@@ -678,7 +670,6 @@ window.KBIRD_POSTERS = [
         coverImage: 'posters/northen_hawk_owl.jpg',
         posterFile: 'posters/northen_hawk_owl.jpg',
         year: 2024
-    
     },
     {
         id: 'snowy_owl',

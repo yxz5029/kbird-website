@@ -1,9 +1,9 @@
 {
   "commonName": "Ural Owl",
-  "scientificName": "Ural Owl",
-  "family": "xxx",
-  "habitat": "xxx",
-  "conservationStatus": "N/A",
+  "scientificName": "Strix uralensis",
+  "family": "Strigidae",
+  "habitat": "Pine and deciduous forest; coniferous/mixed forest near open areas and marshes",
+  "conservationStatus": "Least Concern (LC)",
   "photographer": "Kevin",
   "location": "xxx",
   "year": "2026",

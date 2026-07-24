@@ -1,9 +1,9 @@
 {
   "commonName": "Great Crested Grebe",
-  "scientificName": "Great Crested Grebe",
-  "family": "xxx",
-  "habitat": "xxx",
-  "conservationStatus": "N/A",
+  "scientificName": "Podiceps cristatus",
+  "family": "Podicipedidae",
+  "habitat": "Lakes; reservoirs; slow flowing rivers; swamps; bays; lagoons; and estuaries",
+  "conservationStatus": "Least Concern (LC)",
   "photographer": "Kevin",
   "location": "xxx",
   "year": "2026",

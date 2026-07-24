@@ -1,9 +1,9 @@
 {
   "commonName": "White Tailed Sea Eagle",
-  "scientificName": "White Tailed Sea Eagle",
-  "family": "xxx",
-  "habitat": "xxx",
-  "conservationStatus": "N/A",
+  "scientificName": "Haliaeetus albicilla",
+  "family": "Accipitridae",
+  "habitat": "Sea coasts; lake shores; rivers; islands; wetlands; and estuaries",
+  "conservationStatus": "Least Concern (LC)",
   "photographer": "Kevin",
   "location": "xxx",
   "year": "2026",

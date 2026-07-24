@@ -1,9 +1,9 @@
 {
   "commonName": "Barn Owl",
-  "scientificName": "Barn Owl",
-  "family": "xxx",
-  "habitat": "xxx",
-  "conservationStatus": "N/A",
+  "scientificName": "Tyto alba",
+  "family": "Tytonidae",
+  "habitat": "Open habitats: grasslands; deserts; marshes; agricultural fields; and farmlands",
+  "conservationStatus": "Least Concern (LC)",
   "photographer": "Kevin",
   "location": "xxx",
   "year": "2026",
