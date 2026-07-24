@@ -234,7 +234,7 @@ h2 {
     width:100%;
     aspect-ratio:3/4;
     border-radius:var(--radius-lg);
-    background:url(posters/about_me.jpg) center center;
+    background:url(about_me.jpg) center center;
     background-size:cover;
     background-repeat:no-repeat;
 }
