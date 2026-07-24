@@ -58,7 +58,7 @@ img {
 
 .home-page,
 .poster-page {
-  width: min(1160px, calc(100vw - 24px));
+  width: min(1260px, calc(100vw - 24px));
   margin: 0 auto;
   padding: 18px 0 36px;
 }
@@ -341,8 +341,8 @@ h2 {
 
 .poster-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
-  gap: 18px;
+  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 1.3fr);
+  gap: 16px;
 }
 
 .poster-cover,
@@ -355,7 +355,7 @@ h2 {
 }
 
 .poster-cover {
-  padding: 18px;
+  padding: 16px;
 }
 
 .poster-preview {
@@ -391,7 +391,7 @@ h2 {
 }
 
 .poster-title {
-  font-size: clamp(2.8rem, 5vw, 4.8rem);
+  font-size: clamp(2.4rem, 4.6vw, 4.4rem);
   margin: 4px 0 10px;
 }
 
@@ -401,7 +401,7 @@ h2 {
 
 .detail-block + .detail-block {
   margin-top: 18px;
-  padding-top: 18px;
+  padding-top: 1px;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -475,7 +475,7 @@ h2 {
 
   .home-page,
   .poster-page {
-    width: min(100vw - 18px, 1160px);
+    width: min(100vw - 18px, 2360px);
   }
 
   .hero-strip__track {

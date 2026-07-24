@@ -2,6 +2,7 @@ import os
 import json
 import csv
 from pathlib import Path
+import random
 
 # -----------------------------
 # Paths
@@ -67,6 +68,78 @@ def display_name(filename_stem):
     name = filename_stem.replace("_", " ").replace("-", " ")
     return name.title()
 
+def generate_story(common_name, scientific_name, family, habitat, conservation):
+    """
+    生成一篇150-250字的独特描述，包含关键词。
+    每次调用会从多个模板中随机选择，避免重复。
+    """
+    t1 = (
+        f"The {common_name} ({scientific_name}) is a remarkable bird species belonging to the {family} family. "
+        f"This species is typically found in {habitat}, where it plays a vital role in the local ecosystem. "
+        f"According to the latest IUCN Red List assessment, its conservation status is listed as {conservation}. "
+        f"This status highlights the ongoing need for habitat protection and biodiversity monitoring. "
+        f"The {common_name} is often admired for its unique behaviors and ecological significance, making it a fascinating subject for birdwatchers and conservationists alike."
+    )
+
+    t2 = (
+        f"Discover the stunning {common_name} (*{scientific_name}*), a member of the diverse {family} family. "
+        f"Native to {habitat}, this bird faces various environmental challenges. "
+        f"Currently classified as {conservation} on the IUCN Red List, the {common_name} represents the delicate balance of its native region. "
+        f"Understanding its habitat requirements and distribution is key to effective conservation planning. "
+        f"This species contributes to the richness of avian diversity, and this poster offers an artistic glimpse into its world."
+    )
+
+    t3 = (
+        f"Meet the {common_name} ({scientific_name}), a distinctive bird from the {family} family. "
+        f"Preferring habitats such as {habitat}, this species has adapted to thrive under specific environmental conditions. "
+        f"With an IUCN status of {conservation}, its population trends are closely watched by scientists and enthusiasts. "
+        f"The {common_name} serves as an indicator species for the health of its environment. "
+        f"Whether you are a seasoned ornithologist or a curious nature lover, learning about the {common_name} enriches our understanding of nature."
+    )
+
+    t4 = (
+        f"Explore the fascinating world of the {common_name} ({scientific_name}). "
+        f"Classified under the {family} family, this bird predominantly inhabits {habitat}. "
+        f"The current IUCN classification of {conservation} underscores the importance of safeguarding its natural range. "
+        f"From its feeding habits to its nesting preferences, the {common_name} is a testament to the intricate web of life. "
+        f"By studying species like the {common_name}, we gain valuable insights into broader ecological trends."
+    )
+
+    t5 = (
+        f"Few birds capture the imagination quite like the {common_name} ({scientific_name}). "
+        f"As a member of the {family} family, it has carved out a unique niche in {habitat}. "
+        f"Its conservation status is {conservation}, a classification that drives crucial research and protection efforts. "
+        f"The {common_name}'s presence is a vital sign of its ecosystem's health, making its preservation a priority. "
+        f"This poster is a tribute to the {common_name}, celebrating its role in the natural world and inspiring a deeper appreciation for biodiversity."
+    )
+
+    t6 = (
+        f"The {common_name} ({scientific_name}) is an extraordinary bird that belongs to the {family} family. "
+        f"It is most commonly observed in {habitat}, where its behaviors contribute to the ecological dynamics of the area. "
+        f"Listed as {conservation} by the IUCN, this species' future depends on continued conservation action. "
+        f"The story of the {common_name} is one of adaptation and resilience, offering valuable lessons for conservationists. "
+        f"This poster aims to bring the {common_name} into focus, highlighting its beauty and the importance of its habitat."
+    )
+
+    t7 = (
+        f"In the diverse world of birds, the {common_name} ({scientific_name}) stands out. "
+        f"This species, part of the {family} family, is a resident of {habitat}. "
+        f"Its IUCN Red List status is {conservation}, which serves as a call to action for habitat preservation. "
+        f"The {common_name} is more than just a bird; it is a symbol of the rich biodiversity that we must protect. "
+        f"Through this poster, we hope to foster a greater understanding and appreciation for the {common_name} and its role in the ecosystem."
+    )
+
+    t8 = (
+        f"An icon of the skies, the {common_name} ({scientific_name}) is a species from the {family} family. "
+        f"It thrives in {habitat}, where it interacts with its environment in unique ways. "
+        f"With a conservation status of {conservation}, the {common_name} is a focus for conservationists worldwide. "
+        f"Understanding the needs of the {common_name} helps us better comprehend the challenges facing our planet's wildlife. "
+        f"This poster is a celebration of the {common_name}, a bird that inspires wonder and highlights the critical importance of conservation efforts."
+    )
+
+    templates = [t1, t2, t3, t4, t5, t6, t7, t8]
+    return random.choice(templates)
+
 # 主循环：按 CSV 顺序与图片一一对应
 js_entries = []
 index = 0
@@ -86,6 +159,7 @@ for row, jpg in zip(csv_rows, jpg_files):
     conservation = row.get("iucn_status", "N/A")
 
     print(f"生成: {pretty_name} ({scientific_name})")
+    story_text = generate_story(pretty_name, scientific_name, family, habitat, conservation)
 
     bird_data = {
         "commonName": pretty_name,
@@ -97,8 +171,8 @@ for row, jpg in zip(csv_rows, jpg_files):
         "location": "xxx",
         "year": "2026",
         "story": [
-            "I made this poster to start my full collection website. I want every new poster to have its own page with image and explanation.",
-            "My goal is to keep adding more posters in the same format so the site can grow to 110+ pages while staying organized and easy to view."
+            story_text,  # 这里直接放入生成的整段文字
+            "Every poster is crafted to inspire curiosity about our planet's incredible biodiversity."
         ]
     }
 

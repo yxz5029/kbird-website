@@ -74,8 +74,8 @@
     const displayName = record.commonName || formatPosterName(record.id) || 'Untitled poster';
     document.title = `${displayName} | Kbird Portfolio`;
     title.textContent = displayName;
-    lead.textContent = record.description || 'No description provided.';
-    credits.textContent = [record.photographer, record.location, record.year].filter(Boolean).join(' • ');
+    //lead.textContent = record.description || 'No description provided.';
+    credits.textContent = [record.photographer, record.year].filter(Boolean).join(' • ');
 
     scientificInfo.innerHTML = '';
     renderSpec(scientificInfo, 'Scientific name', record.scientificName);
@@ -101,7 +101,7 @@
 
   const showMissing = (message) => {
     title.textContent = 'Poster not found';
-    lead.textContent = message;
+    //lead.textContent = message;
     credits.textContent = '';
     scientificInfo.innerHTML = '';
     story.innerHTML = '';
