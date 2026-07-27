@@ -2,10 +2,10 @@
 
 :root {
   color-scheme: dark;
-  --bg-0: #466c58;
-  --bg-1: #6f9f82;
-  --bg-2: #a8c8b4;
-  --glass: rgba(60, 118, 72, 0.18);
+  --bg-0: #335b46;
+  --bg-1: #6aa37b;
+  --bg-2: #d0e6d3;
+  --glass: rgba(50, 110, 66, 0.3);
   --glass-border: rgba(255, 255, 255, 0.24);
   --text: #f8fcf8;
   --muted: rgba(246, 250, 247, 0.95);
@@ -31,9 +31,10 @@ body {
   font-family: 'Manrope', system-ui, sans-serif;
   line-height: 1.65;
   background:
-    radial-gradient(circle at top, rgba(198, 255, 216, 0.488), transparent 30%),
-    radial-gradient(circle at 18% 8%, rgba(147, 219, 176, 0.28), transparent 24%),
-    radial-gradient(circle at 80% 12%, rgba(116, 208, 147, 0.2), transparent 21%),
+    radial-gradient(circle at top, rgba(184, 255, 204, 0.5), transparent 30%),
+    radial-gradient(circle at 18% 8%, rgba(120, 214, 153, 0.42), transparent 24%),
+    radial-gradient(circle at 80% 12%, rgba(98, 190, 127, 0.32), transparent 21%),
+    radial-gradient(circle at 50% 112%, rgba(31, 57, 41, 0.46), transparent 42%),
     linear-gradient(180deg, var(--bg-0), var(--bg-1) 40%, var(--bg-2) 100%);
   overflow-x: hidden;
 }
@@ -64,7 +65,7 @@ img {
 }
 
 .section-card {
-  background: rgba(14, 36, 13, 0.233);
+  background: rgba(28, 69, 35, 0.34);
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow);
@@ -93,8 +94,8 @@ main {
 .greeting-panel {
   padding: 18px;
   border-radius: var(--radius-lg);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(241, 255, 245, 0.22);
 }
 
 .greeting-panel p {
@@ -111,7 +112,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.14em;
   font-size: 0.74rem;
-  color: var(--accent);
+  color: #dbf1df;
 }
 
 h1,
@@ -160,15 +161,15 @@ h2 {
 }
 
 .hero-strip__card--one {
-  background: linear-gradient(180deg, rgba(64, 96, 72, 0.42), rgba(7, 15, 10, 0.92)), url('https://images.unsplash.com/photo-1452570053594-1b985d6ea890?auto=format&fit=crop&w=900&q=80') center/cover;
+  background: linear-gradient(180deg, rgba(112, 165, 119, 0.58), rgba(7, 15, 10, 0.9)), url('https://images.unsplash.com/photo-1452570053594-1b985d6ea890?auto=format&fit=crop&w=900&q=80') center/cover;
 }
 
 .hero-strip__card--two {
-  background: linear-gradient(180deg, rgba(64, 96, 72, 0.42), rgba(7, 15, 10, 0.92)), url('https://images.unsplash.com/photo-1511275539165-cc46b1ee89bf?auto=format&fit=crop&w=900&q=80') center/cover;
+  background: linear-gradient(180deg, rgba(112, 165, 119, 0.58), rgba(7, 15, 10, 0.9)), url('https://images.unsplash.com/photo-1511275539165-cc46b1ee89bf?auto=format&fit=crop&w=900&q=80') center/cover;
 }
 
 .hero-strip__card--three {
-  background: linear-gradient(180deg, rgba(64, 96, 72, 0.42), rgba(7, 15, 10, 0.92)), url('https://images.unsplash.com/photo-1501706362039-c6e80948cd27?auto=format&fit=crop&w=900&q=80') center/cover;
+  background: linear-gradient(180deg, rgba(112, 165, 119, 0.58), rgba(7, 15, 10, 0.9)), url('https://images.unsplash.com/photo-1501706362039-c6e80948cd27?auto=format&fit=crop&w=900&q=80') center/cover;
 }
 
 .bird-doodle {
@@ -176,8 +177,8 @@ h2 {
   width: 76px;
   height: 70px;
   border-radius: 50%;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.981), rgba(249, 248, 232, 0.953));
-  border: 2px solid rgba(117, 150, 125, 0.26);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(239, 248, 230, 0.9));
+  border: 2px solid rgba(117, 150, 125, 0.3);
   box-shadow: 0 12px 24px rgba(24, 57, 40, 0.12);
   z-index: 2;
   pointer-events: none;
