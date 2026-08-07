@@ -60,7 +60,7 @@
 
   if (heroTrack) {
     heroTrack.innerHTML = '';
-    const visiblePosters = posters.slice(0, 6);
+    const visiblePosters = posters;
     visiblePosters.forEach((poster) => heroTrack.append(createHeroCard(poster)));
     visiblePosters.forEach((poster) => heroTrack.append(createHeroCard(poster)));
 

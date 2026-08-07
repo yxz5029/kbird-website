@@ -139,7 +139,7 @@ h2 {
   display: flex;
   gap: 14px;
   width: max-content;
-  animation: roll 28s linear infinite;
+  animation: roll 38s linear infinite;
 }
 
 .hero-strip__slide,
