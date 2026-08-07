@@ -4,7 +4,7 @@
   color-scheme: dark;
   --bg-0: #335b46;
   --bg-1: #6aa37b;
-  --bg-2: #d0e6d3;
+  --bg-2: #9fbeaa;
   --glass: rgba(50, 110, 66, 0.3);
   --glass-border: rgba(255, 255, 255, 0.24);
   --text: #f8fcf8;
@@ -34,7 +34,7 @@ body {
     radial-gradient(circle at top, rgba(184, 255, 204, 0.5), transparent 30%),
     radial-gradient(circle at 18% 8%, rgba(120, 214, 153, 0.42), transparent 24%),
     radial-gradient(circle at 80% 12%, rgba(98, 190, 127, 0.32), transparent 21%),
-    radial-gradient(circle at 50% 112%, rgba(31, 57, 41, 0.46), transparent 42%),
+    radial-gradient(circle at 50% 112%, rgba(25, 64, 45, 0.58), transparent 42%),
     linear-gradient(180deg, var(--bg-0), var(--bg-1) 40%, var(--bg-2) 100%);
   overflow-x: hidden;
 }
@@ -160,16 +160,23 @@ h2 {
   object-fit: cover;
 }
 
+.hero-strip__card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .hero-strip__card--one {
-  background: linear-gradient(180deg, rgba(112, 165, 119, 0.58), rgba(7, 15, 10, 0.9)), url('https://images.unsplash.com/photo-1452570053594-1b985d6ea890?auto=format&fit=crop&w=900&q=80') center/cover;
+  background: linear-gradient(180deg, rgba(112, 165, 119, 0.58), rgba(7, 15, 10, 0.9));
 }
 
 .hero-strip__card--two {
-  background: linear-gradient(180deg, rgba(112, 165, 119, 0.58), rgba(7, 15, 10, 0.9)), url('https://images.unsplash.com/photo-1511275539165-cc46b1ee89bf?auto=format&fit=crop&w=900&q=80') center/cover;
+  background: linear-gradient(180deg, rgba(112, 165, 119, 0.58), rgba(7, 15, 10, 0.9));
 }
 
 .hero-strip__card--three {
-  background: linear-gradient(180deg, rgba(112, 165, 119, 0.58), rgba(7, 15, 10, 0.9)), url('https://images.unsplash.com/photo-1501706362039-c6e80948cd27?auto=format&fit=crop&w=900&q=80') center/cover;
+  background: linear-gradient(180deg, rgba(112, 165, 119, 0.58), rgba(7, 15, 10, 0.9));
 }
 
 .bird-doodle {
@@ -232,12 +239,18 @@ h2 {
 
 
 .about-me__photo{
-    width:100%;
-    aspect-ratio:3/4;
-    border-radius:var(--radius-lg);
-    background:url(about_me.jpg) center center;
-    background-size:cover;
-    background-repeat:no-repeat;
+  width:100%;
+  aspect-ratio:3/4;
+  border-radius:var(--radius-lg);
+  overflow:hidden;
+  background:rgba(255,255,255,0.05);
+}
+
+.about-me__photo img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
 }
 
 .about-me__content p {

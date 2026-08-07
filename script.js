@@ -26,13 +26,15 @@
     const image = document.createElement('img');
     image.alt = `${poster.commonName} preview`;
     image.loading = 'lazy';
+    image.width = 600;
+    image.height = 800;
     image.src = poster.coverImage || poster.image || `data:image/svg+xml;charset=UTF-8,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><rect width="600" height="800" fill="#0b1a12"/><text x="50%" y="50%" fill="#dce7de" font-size="28" text-anchor="middle">Poster preview</text></svg>')}`;
 
     card.append(image);
     return card;
   };
 
-  const createChip = (poster, index) => {
+  const createChip = (poster, index) => {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     const link = document.createElement('a');
     link.className = 'toc-chip toc-chip--simple';
     link.href = `poster.html?id=${encodeURIComponent(poster.id)}`;
@@ -40,7 +42,8 @@
     const label = document.createElement('span');
     const year = poster.year ? ` (${poster.year})` : '';
     label.className = 'toc-chip__label';
-    label.textContent = `${String(index + 1).padStart(2, '0')}. ${formatPosterName(poster.commonName || poster.id)}${year}`;
+    // 关键修改：直接使用传入的 index（反序值）
+    label.textContent = `${String(index).padStart(2, '0')}. ${formatPosterName(poster.commonName || poster.id)}${year}`;
 
     link.append(label);
     return link;
@@ -48,7 +51,11 @@
 
   if (tocList) {
     tocList.innerHTML = '';
-    posters.forEach((poster, index) => tocList.append(createChip(poster, index)));
+    posters.forEach((poster, index) => {
+      // 关键修改：计算反序编号
+      const reversedIndex = posters.length - index;
+      tocList.append(createChip(poster, reversedIndex));
+    });
   }
 
   if (heroTrack) {

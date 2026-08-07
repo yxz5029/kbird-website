@@ -72,7 +72,7 @@
 
   const renderRecord = (record) => {
     const displayName = record.commonName || formatPosterName(record.id) || 'Untitled poster';
-    document.title = `${displayName} | Kbird Portfolio`;
+    document.title = `${displayName} - Kbird Portfolio`;
     title.textContent = displayName;
     //lead.textContent = record.description || 'No description provided.';
     credits.textContent = [record.photographer, record.year].filter(Boolean).join(' • ');
