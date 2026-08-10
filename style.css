@@ -139,13 +139,20 @@ h2 {
   display: flex;
   gap: 14px;
   width: max-content;
-  animation: roll 44s linear infinite;
+  will-change: transform;
+  transform: translateZ(0);
+  animation: none;
+}
+
+.hero-strip__track--animated {
+  animation: roll 500s linear infinite;
 }
 
 .hero-strip__slide,
 .hero-strip__card {
   width: clamp(170px, 20vw, 220px);
   height: clamp(240px, 27vw, 300px);
+  aspect-ratio: 11 / 16;
   flex: 0 0 auto;
   border-radius: 22px;
   overflow: hidden;

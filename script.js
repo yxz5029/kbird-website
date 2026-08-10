@@ -17,7 +17,7 @@
     return;
   }
 
-  const createHeroCard = (poster) => {
+  const createHeroCard = (poster, heroIndex) => {
     const card = document.createElement('a');
     card.className = 'hero-strip__slide';
     card.href = `./poster.html?id=${encodeURIComponent(poster.id)}`;
@@ -25,7 +25,7 @@
 
     const image = document.createElement('img');
     image.alt = `${poster.commonName} preview`;
-    image.loading = 'lazy';
+    image.loading = heroIndex < 6 ? 'eager' : 'lazy';
     image.width = 600;
     image.height = 800;
     image.src = poster.coverImage || poster.image || `data:image/svg+xml;charset=UTF-8,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><rect width="600" height="800" fill="#0b1a12"/><text x="50%" y="50%" fill="#dce7de" font-size="28" text-anchor="middle">Poster preview</text></svg>')}`;
@@ -61,8 +61,8 @@
   if (heroTrack) {
     heroTrack.innerHTML = '';
     const visiblePosters = posters;
-    visiblePosters.forEach((poster) => heroTrack.append(createHeroCard(poster)));
-    visiblePosters.forEach((poster) => heroTrack.append(createHeroCard(poster)));
+    visiblePosters.forEach((poster, index) => heroTrack.append(createHeroCard(poster, index)));
+    visiblePosters.forEach((poster, index) => heroTrack.append(createHeroCard(poster, visiblePosters.length + index)));
 
     if (visiblePosters.length === 0) {
       const empty = document.createElement('div');
@@ -70,5 +70,9 @@
       empty.textContent = 'Add poster entries to data/posters.js to show the rolling stack.';
       heroTrack.append(empty);
     }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      heroTrack.classList.add('hero-strip__track--animated');
+    });
   }
 })();
