@@ -20,7 +20,7 @@
   const createHeroCard = (poster) => {
     const card = document.createElement('a');
     card.className = 'hero-strip__slide';
-    card.href = `poster.html?id=${encodeURIComponent(poster.id)}`;
+    card.href = `./poster.html?id=${encodeURIComponent(poster.id)}`;
     card.setAttribute('aria-label', `Open ${formatPosterName(poster.commonName || poster.id)}`);
 
     const image = document.createElement('img');
@@ -37,7 +37,7 @@
   const createChip = (poster, index) => {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     const link = document.createElement('a');
     link.className = 'toc-chip toc-chip--simple';
-    link.href = `poster.html?id=${encodeURIComponent(poster.id)}`;
+    link.href = `./poster.html?id=${encodeURIComponent(poster.id)}`;
 
     const label = document.createElement('span');
     const year = poster.year ? ` (${poster.year})` : '';

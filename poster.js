@@ -51,7 +51,9 @@
       return;
     }
 
-    const resolvedSource = source.startsWith('http') || source.startsWith('/') ? source : source;
+    const resolvedSource = source.startsWith('http') || source.startsWith('/') || source.startsWith('./')
+      ? source
+      : `./${source}`;
     const extension = resolvedSource.split('.').pop().toLowerCase();
 
     if (extension === 'pdf') {

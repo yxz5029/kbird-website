@@ -27,7 +27,7 @@ const source = fs.readFileSync(postersFile, 'utf8');
 const posterIds = extractPosterIds(source);
 
 const tocLinks = posterIds
-  .map((posterId) => `\t\t\t\t\t<a href="poster.html?id=${posterId}">${formatPosterName(posterId)}</a>`)
+  .map((posterId) => `\t\t\t\t\t<a href="./poster.html?id=${posterId}">${formatPosterName(posterId)}</a>`)
   .join('\n');
 
 const indexHtml = fs.readFileSync(indexFile, 'utf8');
