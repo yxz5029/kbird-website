@@ -3,6 +3,7 @@ Bucorvus abyssinicus,Vulnerable (VU),Bucorvidae,Savanna; sub-desert scrub; rocky
 Asio abyssinicus,Least Concern (LC),Strigidae,Open grasslands; moorlands; montane forests; mountain valleys; and gorges up to 3900 m
 Stephanoaetus coronatus,Near Threatened (NT),Accipitridae,Forests; woodlands; savanna; shrubland; plantations; and urban greenspaces
 Haliaeetus vocifer,Least Concern (LC),Accipitridae,Bodies of water: rivers; lakes; floodplains; coasts; estuaries; mangrove lagoons; and swamps
+Polyboroides typus, Least Concern (LC), Accipitridae, forests; woodlands; savannas; riparian areas; plantations; urban areas
 Strix woodfordii,Least Concern (LC),Strigidae,Forest; woodland; plantations; gardens; coastal and riparian forests
 Terpsiphone incei,Least Concern (LC),Monarchidae,Broadleaf lowland and hill forests; also more open habitats during migration and winter
 Chrysococcyx maculatus,Least Concern (LC),Cuculidae,Subtropical/tropical moist lowland and montane forests
@@ -25,8 +26,10 @@ Milvus migrans,Least Concern (LC),Accipitridae,Open areas near water: grasslands
 Pterorhinus courtoisi,Critically Endangered (CR),Leiothrichidae,Mixed evergreen-deciduous forests; forest patches; and trees near human settlements
 Phoenicurus frontalis,Least Concern (LC),Muscicapidae,Brusy open subalpine areas; winters in foothills in scrubby areas; field edges; and gardens
 Monticola solitarius,Least Concern (LC),Muscicapidae,Rocky areas: cliffs; gorges; ruins; mountains; coasts; and urban areas
+Myophonus caeruleus, Least Concern (LC), Muscicapidae, temperate forests; subtropical/tropical moist montane forests; streams; damp areas
 Hydrornis schwaneri,Least Concern (LC),Pittidae,Hill and lowland dipterocarp forests; dry ridges; hilltops; limestone areas; and secondary forest
 Pityriasis gymnocephala,Near Threatened (NT),Pityriasidae,Primary dipterocarp forest; peatswamp forest; lowland rainforests
+Cissa jefferyi, Least Concern (LC), Corvidae, subtropical/tropical moist montane forest; dense forest vegetation
 Polyplectron schleiermacheri,Endangered (EN),Phasianidae,Primary lowland and hill forest; dipterocarp forest; favoring areas with ridges
 Brachypteryx erythrogyna,Least Concern (LC),Muscicapidae,Montane rainforest floor and undergrowth
 Urosphena whiteheadi,Least Concern (LC),Cettiidae,Forest floors and undergrowth in montane forests at 750–3150 m
@@ -69,6 +72,7 @@ Suthora verreauxi,Least Concern (LC),Paradoxornithidae,Subtropical/tropical mois
 Podiceps cristatus,Least Concern (LC),Podicipedidae,Lakes; reservoirs; slow flowing rivers; swamps; bays; lagoons; and estuaries
 Strix nebulosa,Least Concern (LC),Strigidae,Dense coniferous forests; mixed forests; bogs; meadows; and open areas near forests
 Ficedula elisae,Least Concern (LC),Muscicapidae,Mountain broadleaf/mixed forest; forest edge; parks; gardens; and wooded areas
+Dicrurus paradiseus, Least Concern (LC), Dicruridae, moist deciduous forest; rainforest; lowland forest; montane forest; wooded areas
 Aethopyga nipalensis,Least Concern (LC),Nectariniidae,Temperate forests; subtropical/tropical moist montane forests; open woodland; forest edge; and gardens
 Culicicapa ceylonensis,Least Concern (LC),Stenostiridae,Evergreen/deciduous broadleaf forest; bamboo; mixed forest; forest edge; and streamsides
 Erythrogenys swinhoei,Least Concern (LC),Timaliidae,Subtropical/tropical moist lowland forest; scrub; and montane forest
@@ -98,6 +102,7 @@ Cinnyris bifasciatus,Least Concern (LC),Nectariniidae,Forest; woodland; scrub; s
 Syrmaticus reevesii,Vulnerable (VU),Phasianidae,Evergreen forests; open woodland; mixed forest; and hilly/mountainous areas at 300–1800 m
 Buceros rhinoceros,Vulnerable (VU),Bucerotidae,Primary lowland rainforests; hill dipterocarp forests; swamp forests; and mountain forests
 Periparus rubidiventris,Least Concern (LC),Paridae,Mid-to-high elevation mixed/coniferous forest; bamboo; alpine scrub; and forest edge
+Cyanoderma ruficeps, Least Concern (LC), Timaliidae, temperate forest; dense bushes; bamboo forest
 Tropicoperdix graydoni,Near Threatened (NT),Phasianidae,Tropical lowland rainforest; primary lowland forests; and plantations below 500 m
 Pnoepyga albiventer,Least Concern (LC),Pnoepygidae,Subtropical moist montane forest; dark/damp areas near streams; ravines; and boulders
 Otus thilohoffmanni,Endangered (EN),Strigidae,Humid rainforests in the lowlands of Sri Lanka's Wet Zone
@@ -105,6 +110,7 @@ Lophura nycthemera,Least Concern (LC),Phasianidae,Forests; mainly in mountains; 
 Columba leuconota,Least Concern (LC),Columbidae,High altitude rocky areas; cliffs; river valleys; and rocky slopes from 2000–5200 m
 Bubo scandiacus,Vulnerable (VU),Strigidae,Arctic tundra; meadows; marshes; open grasslands; coastal areas; and agricultural fields
 Urocissa ornata,Vulnerable (VU),Corvidae,Humid forest from lowlands to hills; dense wet evergreen temperate rainforest
+Rubigula erythropthalmos, Least Concern (LC), Pycnonotidae, subtropical/tropical moist lowland forest; subtropical/tropical moist montane forest; secondary forest
 Ocyceros gingalensis,Least Concern (LC),Bucerotidae,Evergreen forest; deciduous woodland; areas with dense climbing plants; gardens; and plantations
 Pavo cristatus,Least Concern (LC),Phasianidae,Deciduous/open forest; dry semi-desert grasslands; scrub; agricultural land; and areas near water
 Pomatorhinus melanurus,Least Concern (LC),Timaliidae,Subtropical/tropical moist lowland and montane forest
@@ -136,3 +142,4 @@ Haliaeetus albicilla,Least Concern (LC),Accipitridae,Sea coasts; lake shores; ri
 Arachnothera juliae,Least Concern (LC),Nectariniidae,Hill dipterocarp forest; primary/secondary montane forest; and forest edge at 930–3000 m
 Calyptomena whiteheadi,Least Concern (LC),Calyptomenidae,Montane forests and forest edges at 900–1700 m
 Cygnus cygnus,Least Concern (LC),Anatidae,Freshwater lakes; pools; marshes; bogs; swamps; coastal areas; and wetlands
+Rhabdotorrhinus corrugatus, Endangered (EN), Bucerotidae, lowland evergreen forest; coastal swamp forest; selectively logged forest

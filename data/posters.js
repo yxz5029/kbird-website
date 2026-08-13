@@ -258,6 +258,48 @@ window.KBIRD_POSTERS = [
         year:2026
     },
     {
+        id: 'african_harrier_hawk',
+        coverImage: 'posters/african_harrier_hawk.jpg',
+        posterFile: 'posters/african_harrier_hawk.jpg',
+        year:2025
+    },
+    {
+        id: 'blue_whistling_thrush',
+        coverImage: 'posters/blue_whistling_thrush.jpg',
+        posterFile: 'posters/blue_whistling_thrush.jpg',
+        year:2025
+    },
+    {
+        id: 'bornean_green_magpie',
+        coverImage: 'posters/bornean_green_magpie.jpg',
+        posterFile: 'posters/bornean_green_magpie.jpg',
+        year:2025
+    },
+    {
+        id: 'greater_rackettailed_drongo',
+        coverImage: 'posters/greater_rackettailed_drongo.jpg',
+        posterFile: 'posters/greater_rackettailed_drongo.jpg',
+        year:2025
+    },
+    {
+        id: 'rufous_capped_babbler',
+        coverImage: 'posters/rufous_capped_babbler.jpg',
+        posterFile: 'posters/rufous_capped_babbler.jpg',
+        year:2025
+    },
+    {
+        id: 'spectacaled_bulbul',
+        coverImage: 'posters/spectacaled_bulbul.jpg',
+        posterFile: 'posters/spectacaled_bulbul.jpg',
+        year:2025
+    },
+    {
+        id: 'wrinkled_hornbill',
+        coverImage: 'posters/wrinkled_hornbill.jpg',
+        posterFile: 'posters/wrinkled_hornbill.jpg',
+        year:2025
+    },
+    {
         id: 'whiskered_yuhina',
         coverImage: 'posters/whiskered_yuhina.jpg',
         posterFile: 'posters/whiskered_yuhina.jpg',
