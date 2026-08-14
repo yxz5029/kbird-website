@@ -145,7 +145,7 @@ h2 {
 }
 
 .hero-strip__track--animated {
-  animation: roll 51s linear infinite;
+  animation: roll 510s linear infinite;
 }
 
 .hero-strip__slide,
@@ -499,9 +499,6 @@ h2 {
     width: min(100vw - 18px, 2360px);
   }
 
-  .hero-strip__track {
-    animation-duration: 34s;
-  }
 
   .detail-aside {
     position: static;
