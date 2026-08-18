@@ -1,5 +1,137 @@
 window.KBIRD_POSTERS = [
     {
+        id: 'ashy_headed_laughingthrush',
+        coverImage: 'posters/ashy_headed_laughingthrush.jpg',
+        posterFile: 'posters/ashy_headed_laughingthrush.jpg',
+        year: 2026
+    },
+    {
+        id: 'spectacled_parrotbill',
+        coverImage: 'posters/spectacled_parrotbill.jpg',
+        posterFile: 'posters/spectacled_parrotbill.jpg',
+        year: 2026
+    },
+    {
+        id: 'ashy_prinia',
+        coverImage: 'posters/ashy_prinia.jpg',
+        posterFile: 'posters/ashy_prinia.jpg',
+        year: 2026
+    },
+    {
+        id: 'asian_house_martin',
+        coverImage: 'posters/asian_house_martin.jpg',
+        posterFile: 'posters/asian_house_martin.jpg',
+        year: 2026
+    },
+    {
+        id: 'koklass_pheasant',
+        coverImage: 'posters/koklass_pheasant.jpg',
+        posterFile: 'posters/koklass_pheasant.jpg',
+        year: 2026
+    },
+    {
+        id: 'crested_kingfisher',
+        coverImage: 'posters/crested_kingfisher.jpg',
+        posterFile: 'posters/crested_kingfisher.jpg',
+        year: 2026
+    },
+    {
+        id: 'indian_roller',
+        coverImage: 'posters/indian_roller.jpg',
+        posterFile: 'posters/indian_roller.jpg',
+        year: 2026
+    },
+    {
+        id: 'sri_lanka_hanging',
+        coverImage: 'posters/sri_lanka_hanging.jpg',
+        posterFile: 'posters/sri_lanka_hanging.jpg',
+        year: 2026
+    },
+    {
+        id: 'legges_flowerpecker',
+        coverImage: 'posters/legges_flowerpecker.jpg',
+        posterFile: 'posters/legges_flowerpecker.jpg',
+        year: 2026
+    },
+    {
+        id: 'eastern_cattle_egret',
+        coverImage: 'posters/eastern_cattle_egret.jpg',
+        posterFile: 'posters/eastern_cattle_egret.jpg',
+        year: 2026
+    },
+    {
+        id: 'crested_ibis',
+        coverImage: 'posters/crested_ibis.jpg',
+        posterFile: 'posters/crested_ibis.jpg',
+        year: 2026
+    },
+    {
+        id: 'lotens_sunbird',
+        coverImage: 'posters/lotens_sunbird.jpg',
+        posterFile: 'posters/lotens_sunbird.jpg',
+        year: 2026
+    },
+    {
+        id: 'speckled_wood_pigeon',
+        coverImage: 'posters/speckled_wood_pigeon.jpg',
+        posterFile: 'posters/speckled_wood_pigeon.jpg',
+        year: 2026
+    },
+    {
+        id: 'oriental_turtle_dove',
+        coverImage: 'posters/oriental_turtle_dove.jpg',
+        posterFile: 'posters/oriental_turtle_dove.jpg',
+        year: 2026
+    },
+    {
+        id: 'sri_lanka_frogmouth',
+        coverImage: 'posters/sri_lanka_frogmouth.jpg',
+        posterFile: 'posters/sri_lanka_frogmouth.jpg',
+        year: 2026
+    },
+    {
+        id: 'yellow_fronted_barbet',
+        coverImage: 'posters/yellow_fronted_barbet.jpg',
+        posterFile: 'posters/yellow_fronted_barbet.jpg',
+        year: 2026
+    },
+    {
+        id: 'indian_blackbird',
+        coverImage: 'posters/indian_blackbird.jpg',
+        posterFile: 'posters/indian_blackbird.jpg',
+        year: 2026
+    },
+    {
+        id: 'sri_lanka_wood_pigeon',
+        coverImage: 'posters/sri_lanka_wood_pigeon.jpg',
+        posterFile: 'posters/sri_lanka_wood_pigeon.jpg',
+        year: 2026
+    },
+    {
+        id: 'orange_billed_babbler',
+        coverImage: 'posters/orange_billed_babbler.jpg',
+        posterFile: 'posters/orange_billed_babbler.jpg',
+        year: 2026
+    },
+    {
+        id: 'sri_lanka_spurfowl',
+        coverImage: 'posters/sri_lanka_spurfowl.jpg',
+        posterFile: 'posters/sri_lanka_spurfowl.jpg',
+        year: 2026
+    },
+    {
+        id: 'sri_lanka_bush_warbler',
+        coverImage: 'posters/sri_lanka_bush_warbler.jpg',
+        posterFile: 'posters/sri_lanka_bush_warbler.jpg',
+        year: 2026
+    },
+    {
+        id: 'crimson_backed_flameback',
+        coverImage: 'posters/crimson_backed_flameback.jpg',
+        posterFile: 'posters/crimson_backed_flameback.jpg',
+        year: 2026
+    },
+    {
         id: 'spot_winged_thrush',
         coverImage: 'posters/spot_winged_thrush.jpg',
         posterFile: 'posters/spot_winged_thrush.jpg',
