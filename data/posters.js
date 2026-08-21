@@ -1,5 +1,41 @@
 window.KBIRD_POSTERS = [
     {
+        id: 'brown_capped_babbler',
+        coverImage: 'posters/brown_capped_babbler.jpg',
+        posterFile: 'posters/brown_capped_babbler.jpg',
+        year: 2026
+    },
+    {
+        id: 'brow_breasted_flycatcher',
+        coverImage: 'posters/brow_breasted_flycatcher.jpg',
+        posterFile: 'posters/brow_breasted_flycatcher.jpg',
+        year: 2026
+    },
+    {
+        id: 'kashmir_flycatcher',
+        coverImage: 'posters/kashmir_flycatcher.jpg',
+        posterFile: 'posters/kashmir_flycatcher.jpg',
+        year: 2026
+    },
+    {
+        id: 'paddyfield_pipit',
+        coverImage: 'posters/paddyfield_pipit.jpg',
+        posterFile: 'posters/paddyfield_pipit.jpg',
+        year: 2026
+    },
+    {
+        id: 'pied_thrush',
+        coverImage: 'posters/pied_thrush.jpg',
+        posterFile: 'posters/pied_thrush.jpg',
+        year: 2026
+    },
+    {
+        id: 'yellow_eared_bulbul',
+        coverImage: 'posters/yellow_eared_bulbul.jpg',
+        posterFile: 'posters/yellow_eared_bulbul.jpg',
+        year: 2026
+    },
+    {
         id: 'ashy_headed_laughingthrush',
         coverImage: 'posters/ashy_headed_laughingthrush.jpg',
         posterFile: 'posters/ashy_headed_laughingthrush.jpg',

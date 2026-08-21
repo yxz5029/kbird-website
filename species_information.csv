@@ -40,7 +40,9 @@ Urosphena whiteheadi,Least Concern (LC),Cettiidae,Forest floors and undergrowth 
 Dendrocitta cinerascens,Least Concern (LC),Corvidae,Forest; forest edge; bamboo thickets; scrubland; and cultivated areas
 Myophonus borneensis,Least Concern (LC),Muscicapidae,Subtropical/tropical moist montane forests; rocky streams and gullies in mountains
 Haliastur indus,Least Concern (LC),Accipitridae,Coastal areas; mangroves; estuaries; wetlands; rivers; forests; and urban areas
+Muscicapa muttui,Least Concern (LC),Muscicapidae,forest understorey;forest edges;woodland
 Ninox scutulata,Least Concern (LC),Strigidae,Well-wooded country; forest; wooded parks; plantations; and mangroves
+Pellorneum fuscocapillus,Least Concern (LC),Pellorneidae,forest undergrowth;thick scrub;dense vegetation
 Ketupa zeylonensis,Least Concern (LC),Strigidae,Deciduous; semi-deciduous; and open evergreen woodland near water; ravines; plantations
 Fulvetta ludlowi,Least Concern (LC),Paradoxornithidae,High-elevation montane forests; dense lower vegetation; bamboo stands; and rhododendron thickets
 Ketupa ketupu,Least Concern (LC),Strigidae,Woody areas near water; mangroves; paddy fields; freshwater wetlands; and forest edges
@@ -94,6 +96,7 @@ Eumyias indigo,Least Concern (LC),Muscicapidae,Tropical moist submontane montane
 Accipiter gularis,Least Concern (LC),Accipitridae,Mountain coniferous/mixed forest; forest edge; deciduous/coniferous/riparian woodland
 Glaucidium radiatum,Least Concern (LC),Strigidae,Scrub forest; deciduous/moist deciduous forests; densely wooded lowlands and foothills
 Phylloscopus ogilviegranti,Least Concern (LC),Phylloscopidae,Temperate forests; subtropical/tropical moist lowland and montane forests
+Ficedula subrubra,Vulnerable (VU),Muscicapidae,montane broadleaf forest;woodland;forest edges;plantations
 Lophaetus occipitalis,Least Concern (LC),Accipitridae,Woodland; plantations; open forest; forest edges; and moist areas near water
 Pucrasia macrolopha,Least Concern (LC),Phasianidae,temperate forest;subtropical or tropical moist montane forest;alpine meadows
 Pachyglossa vincens,Near Threatened (NT),Dicaeidae,subtropical or tropical moist lowland forest;subtropical or tropical moist montane forest;gardens
@@ -111,9 +114,11 @@ Eurystomus orientalis,Least Concern (LC),Coraciidae,Open woodland; forest edges;
 Anthracoceros albirostris,Least Concern (LC),Bucerotidae,Tropical/subtropical evergreen broadleaf forest edges; open woodlands; and cultivated areas
 Streptopelia orientalis,Least Concern (LC),Columbidae,forest;woodland;grassland;agricultural land;scrubland
 Alophoixus ruficrissus,Least Concern (LC),Pycnonotidae,Lowland and montane forests; primary/well-aged secondary growth; mid-storey of rainforests
+Anthus rufulus,Least Concern (LC),Motacillidae,open scrub;short grassland;cultivated areas;paddy fields;bare ground
 Microhierax melanoleucos,Least Concern (LC),Falconidae,Subtropical evergreen broadleaf forest; forest edges; open woodland; and wooded foothills
 Ceryle rudis,Least Concern (LC),Alcedinidae,Near rivers; ponds; lakes; seashores; freshwater wetlands; and coastal waters up to 2500 m
 Cinnyris bifasciatus,Least Concern (LC),Nectariniidae,Forest; woodland; scrub; savanna; coastal bush; mangroves; and riverine forest
+Geokichla wardii,Least Concern (LC),Turdidae,subtropical or tropical moist montane forest;forest edges;wooded ravines;streams;plantations;rural gardens
 Syrmaticus reevesii,Vulnerable (VU),Phasianidae,Evergreen forests; open woodland; mixed forest; and hilly/mountainous areas at 300–1800 m
 Buceros rhinoceros,Vulnerable (VU),Bucerotidae,Primary lowland rainforests; hill dipterocarp forests; swamp forests; and mountain forests
 Periparus rubidiventris,Least Concern (LC),Paridae,Mid-to-high elevation mixed/coniferous forest; bamboo; alpine scrub; and forest edge
@@ -166,4 +171,5 @@ Arachnothera juliae,Least Concern (LC),Nectariniidae,Hill dipterocarp forest; pr
 Calyptomena whiteheadi,Least Concern (LC),Calyptomenidae,Montane forests and forest edges at 900–1700 m
 Cygnus cygnus,Least Concern (LC),Anatidae,Freshwater lakes; pools; marshes; bogs; swamps; coastal areas; and wetlands
 Rhabdotorrhinus corrugatus, Endangered (EN), Bucerotidae, lowland evergreen forest; coastal swamp forest; selectively logged forest
+Pycnonotus penicillatus,Least Concern (LC),Pycnonotidae,montane forest;subtropical or tropical moist montane forest;forest edges;shrubland;gardens
 Elaphrornis palliseri,Near Threatened (NT),Locustellidae,humid forest undergrowth;bamboo woodland;subtropical or tropical moist montane forest;high-altitude forest
